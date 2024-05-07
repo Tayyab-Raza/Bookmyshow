@@ -1,0 +1,9 @@
+Creating React appln
+    npx create-react-app appln-name
+
+ Run appln 
+        cd appln-name
+        npm start   
+
+ Router
+        npm i react-router-dom       
