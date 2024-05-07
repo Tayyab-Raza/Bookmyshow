@@ -1,9 +1,31 @@
 Creating React appln
-    npx create-react-app appln-name
+   >> npx create-react-app appln-name
 
  Run appln 
-        cd appln-name
-        npm start   
+      >>  cd appln-name
+      >>  npm start   
 
  Router
-        npm i react-router-dom       
+     >> npm i react-router-dom  
+
+
+
+Tailwind:
+        >> npm install -D tailwindcss postcss autoprefixer     
+        >> npx tailwindcss init -p
+
+React-Slick:
+           >> npm install react-slick        
+           >> npm install slick-carousel 
+
+Axios: https://axios-http.com/docs/intro
+      >> npm i axios 
+      >> In order to work with API's we use Axios
+
+
+Headless UI for Modals : https://headlessui.com/
+                         >> npm install @headlessui/react
+
+
+React-Icons: https://react-icons.github.io/react-icons/
+             >> npm install react-icons

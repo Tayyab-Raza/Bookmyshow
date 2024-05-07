@@ -1,10 +1,14 @@
 import './App.css';
 
+//React-slick CSS
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   );
 }
 
