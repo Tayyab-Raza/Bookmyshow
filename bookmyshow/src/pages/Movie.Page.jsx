@@ -1,4 +1,6 @@
 import React from 'react'
+import Movielayout from '../Layouts/Movie.layout'
+
 
 const MoviePage = () => {
   return (
@@ -8,4 +10,4 @@ const MoviePage = () => {
   )
 }
 
-export default MoviePage
+export default Movielayout(MoviePage)

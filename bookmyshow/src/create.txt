@@ -29,3 +29,8 @@ Headless UI for Modals : https://headlessui.com/
 
 React-Icons: https://react-icons.github.io/react-icons/
              >> npm install react-icons
+
+
+
+snippet:
+        >> rafce for default structure

@@ -1,4 +1,6 @@
 import React from 'react'
+import Defaultlayout from '../Layouts/Default.layout'
+
 
 const PlaysPage = () => {
   return (
@@ -8,4 +10,4 @@ const PlaysPage = () => {
   )
 }
 
-export default PlaysPage
+export default Defaultlayout(PlaysPage)
