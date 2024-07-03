@@ -1,48 +1,41 @@
-import React, { useState } from 'react'
 import HeroSlider from 'react-slick'
+import herocs1 from '../images/herocs1.avif'
+import herocs2 from '../images/herocs2.avif'
+import herocs3 from '../images/herocs3.avif'
+
 
 
 const HeroCarousel = () => {
-    const [images, setImages] = useState([]);
-    var settingsLg = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    }
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    }
+        const settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 3000,
+            autoplaySpeed: 2000,
+            cssEase: "linear"
+        };
+    
   return (
     <>
-    <div className='lg:hidden'>
+    <div className='slider-container'>
      <HeroSlider {...settings}>
-        {
-            images.map((image) => (
-                <div className='w-full h-full md:h-80 py-3'>
-                    <img src="https://image.tmdb.org/t/p/original/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg" alt="Hero Banner" className='w-full h-full rounded-md object-cover' />
-                </div>
-            ))
-        }
+        
+               <div>
+               <h3><img src={herocs1} alt="" /></h3>
+             </div>
+             <div>
+               <h3><img src={herocs2} alt="" /></h3>
+             </div>
+             <div>
+               <h3><img src={herocs3} alt="" /></h3>
+             </div>
+            
+        
      </HeroSlider>
     </div>
-    <div className='hidden lg:block'>
-    <HeroSlider {...settingsLg}>
-        {
-            images.map((image) => (
-                <div className='w-full h-full md:h-80 py-3'>
-                    <img src="https://image.tmdb.org/t/p/original/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg" alt="Hero Banner" className='w-full h-full rounded-md object-cover' />
-                </div>
-            ))
-        }
-     </HeroSlider>
-    </div>
-    </>
+        </>
   )
 }
 
