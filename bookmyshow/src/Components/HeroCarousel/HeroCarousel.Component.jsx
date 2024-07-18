@@ -21,17 +21,17 @@ const HeroCarousel = () => {
     <>
     <div className='slider-container'>
      <HeroSlider {...settings}>
-        
-               <div>
-               <h3><img src={herocs1} alt="" /></h3>
+       
+               <div className='w-full h-56 md:h-80 py-3 ml-9'>
+               <h3><img className='img1 ml-5' src={herocs1} alt="" /></h3>
              </div>
-             <div>
-               <h3><img src={herocs2} alt="" /></h3>
+             <div className='w-full h-56 md:h-80 py-3 ml-9'>
+               <h3><img className='img2 ml-5' src={herocs2} alt="" /></h3>
              </div>
-             <div>
-               <h3><img src={herocs3} alt="" /></h3>
+             <div className='w-full h-56 md:h-80 py-3 ml-9'>
+               <h3><img className='img3 ml-5' src={herocs3} alt="" /></h3>
              </div>
-            
+             
         
      </HeroSlider>
     </div>
