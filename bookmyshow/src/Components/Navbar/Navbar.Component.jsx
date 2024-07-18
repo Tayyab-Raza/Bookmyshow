@@ -42,7 +42,7 @@ function NavLg() {
       <span className='text-gray-500 text-base flex items-center cursor-pointer hover:text-black'>Lucknow
       <BiChevronDown />
       </span>
-      <button className='bg-pink-500 text-white px-2 py-1 rounded-md'>Sign in</button>
+      <button className='btn1 text-white px-2 py-1 rounded-md'>Sign in</button>
       <div className='w-8 h-8 text-black-500'>
         <BiMenu className='w-full h-full' />
       </div>
