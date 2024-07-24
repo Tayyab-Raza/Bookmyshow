@@ -1,3 +1,4 @@
+
 .img1{
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -15,6 +16,40 @@
 
 .btn1{
   background-color: rgb(248, 68, 100);
+}
+.card1{
+  width: fit-content;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card2{
+  width: fit-content;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card3{
+  width: fit-content;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card4{
+  width: fit-content;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card5{
+  width: fit-content;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
 }
 /* .App {
   text-align: center;

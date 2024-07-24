@@ -25,6 +25,7 @@ const HomePage = () => {
     <div className='contaner mx-auto px-4 md:px-12 my-8'>
     <PosterSlider 
     title = "Recommended Movies"
+    subtitle = "List of new recommended movies"
     poster = {recommendedMovie}
     isDark = {false}
     />
@@ -52,7 +53,7 @@ const HomePage = () => {
     isDark = {false}
     />
    </div>
-    </>
+       </>
   )
 }
 

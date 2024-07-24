@@ -47,7 +47,6 @@ function NavLg() {
         <BiMenu className='w-full h-full' />
       </div>
     </div>
-  
   </div>
   </>
   }
