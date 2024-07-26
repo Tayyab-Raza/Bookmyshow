@@ -7,7 +7,6 @@ import EntertainmentCardSlider from '../Components/Entertainment/EntertainmentCa
 import PosterSlider from '../Components/PosterSlider/PosterSlider.Component'
 import HeroCarousel from '../Components/HeroCarousel/HeroCarousel.Component'
 
-
 const HomePage = () => {
   const [recommendedMovie, setRecommendedMovie] = useState([]);
   const [premierMovies, setPremierMovies] = useState([]);
